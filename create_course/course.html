@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 40px;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+<font size="5px">Course Title*</font>
+<br>
+<input type="text" id="course" name="course" placeholder="Course title here" maxlength="4" size="50" style="width:82%;font-size:16pt">
+<p><small>(Please make this a maximum of 80 characters and unique.)</small></p>
+<font size="5px">Short Description*</font>
+<br>
+<input type="text" id="description" placeholder="Item description here..." size="50" style="width:82%;font-size:16pt;height:80pt">
+<br>
+<br>
+<font size="5px">Course Description*</font>
+<br>
+<input type="text" id="description" placeholder="Insert your course description" size="50" style="width:82%;font-size:16pt;height:80pt">
+<br>
+<br>
+<font size="5px">What will students learn in your course?*</font>
+<input type="text" size="50" style="width:82%;font-size:8pt;height:80pt">
+<p><small>Student will gain this skills, knowledge after completing this course. (One per line).</small></p>
+<font size="5px">Requirements*</font>
+<br>
+<input type="text" id="requirements" size="50" style="width:82%;font-size:8pt;height:80pt">
+<br>
+<br>
+<font size="5px">Course Level*</font>
+<br>
+<select name="select level" id="select level" placeholder="Select Level" style="width:82%;font-size:16pt">
+<br>
+  <option value="select Level">Select Level</option>
+  <option value="beginner">Beginner</option>
+  <option value="intermediate">Intermediate</option>
+  <option value="expert">Expert</option>
+  </select>
+<br>
+<br>
+<font size="5px">Audio Language*</font>
+<br>
+<select name="select audio" id="select audio" placeholder="Select audio" style="width:82%;font-size:16pt">
+<br>
+ <option value="select audio">Select audio</option>
+ <option value="english">English</option>
+ <option value="espansol">Espansol</option>
+ <option value="portuguese">Portuguese</option>
+ <option value="deutsch">Detsch</option>
+ <option value="francais">Francais</option>
+ <option value="tamil">Tamil</option>
+ <option value="hindi">Hindi</option>
+ <option value="marathi">Marathi</option>
+</select>
+<br><br>
+<font size="5px">Close Caption*</font>
+<br>
+<select name="select audio" id="select audio" placeholder="close caption" style="width:82%;font-size:16pt">
+<br>
+ <option value="english">English</option>
+ <option value="espansol">Espansol</option>
+ <option value="portuguese">Portuguese</option>
+ <option value="francais">Francais</option>
+</select>
+<br>
+<br>
+<font size="5px">Course Category*</font>
+<br>
+<select name="select audio" id="course category" placeholder="course category" style="width:82%;font-size:16pt">
+<br>
+ <option value="web">Web Development</option>
+ <option value="apps">Mobile apps</option>
+ <option value="science">Data Science</option>
+ <option value="language">Programming Language</option>
+ <option value="game">Game Development</option>
+ <option value="data">Databases</option>
+</select>
+<div>
+	<a href="curriculum.html" class="next">Next &raquo;</a>
+	</div>
+</body>
+
+</html>
+
+
