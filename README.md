@@ -1,7 +1,7 @@
 E-Learning Community
 
 Overview
-The E-Learning Community is a web-based platform designed to provide a user-friendly, efficient system for education. It allows students to enroll in courses, participate in real-time discussions, and access downloadable resources like notes and videos. The system aims to increase engagement and learning opportunities in an electronic learning environment.
+The E-Learning Community is a web-based platform designed to provide a user-friendly and efficient system for education. It allows students to enroll in courses, participate in real-time discussions, and access downloadable resources such as notes and videos. The system aims to increase engagement and learning opportunities in an electronic learning environment.
 
 Features
 Course Creation: Allows mentors to create and manage courses.
@@ -10,7 +10,6 @@ Real-Time Discussions: Students can chat with peers and mentors in a community-d
 Profile Management: Both students and mentors can manage their profiles and track their activity.
 Resource Upload: Mentors can upload course materials, and students can download them.
 Reporting System: Generates reports for mentors on student enrollments and resource downloads.
-
 Technologies Used
 Frontend: HTML, CSS
 Backend: PHP, PostgreSQL
